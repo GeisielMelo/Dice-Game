@@ -1,0 +1,81 @@
+:root {
+    --color-one: #151D3B; 
+    --color-two: #9c060c; 
+    --color-three: #6EBF8B; 
+    --color-four: #EEEEEE;
+    --color-five: #880409ce;
+}
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    background-color: var(--color-one);
+    color: var(--color-three);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.title {
+    font-family: 'Indie Flower', cursive;
+    font-style: bold;
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+}
+
+.player {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}
+
+.image {
+    padding: 1rem 2rem;
+    width: 50%;
+}
+
+.btn {
+    margin-top: 2rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: var(--color-two);
+    border-radius: 8px;
+    border-radius: 2px solid (--color-two);
+    font-family: 'Indie Flower', cursive;
+    font-style: bold;
+    font-size: 1.2rem;
+    color: var(--color-four);
+}
+
+.btn:hover {
+    background-color: var(--color-five);
+    color: var(--color-four);
+    border-color: var(--color-two);
+}
+
+.btn:active {
+    background-color: var(--color-five);
+    color: #6EBF8B;
+}
+
+.winner{
+    padding-top: 1rem;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 2rem;
+    color: var(--color-four);
+}

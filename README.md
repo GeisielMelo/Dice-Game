@@ -12,6 +12,7 @@ Welcome to Dice Game! This is an exciting two-player dice game that brings the t
 
 [Online Demo](https://htmlpreview.github.io/?https://github.com/GeisielMelo/Dice_Game/blob/main/index.html) using [BitBucket HTML Preview](https://htmlpreview.github.io/).
 
+> **Note**: This demo is being loaded through a third-party preview page, which may cause loading issues. For the best experience, please refer to the setup section.
 
 ## Features
 
